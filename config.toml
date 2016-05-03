@@ -1,0 +1,17 @@
+# Application Configuration
+
+[App]
+Name = "Gin Skeleton"
+Version = "0.0.1"
+
+[DB]
+Driver = "SQLite"
+
+    [DB.SQLite]
+    DBFile = "storage/db/db.sqlite"
+    
+    [DB.MySQL]
+    Host = "127.0.0.1"
+    DBName = ""
+    UserName = ""
+    Password = ""

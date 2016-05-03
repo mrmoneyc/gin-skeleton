@@ -1,0 +1,4 @@
+storage/logs/*.log
+storage/db/*.sqlite
+.vscode/
+.DS_Store
